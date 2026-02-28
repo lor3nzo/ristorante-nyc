@@ -117,6 +117,19 @@ const priceLabel = (level: number) => '$'.repeat(level || 1)
           </div>
         ))}
       </div>
+
+<footer className="text-center py-6 text-stone-400 text-xs">
+        <a 
+          href="https://github.com/lor3nzo/ristorante-nyc" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="hover:text-red-700 transition"
+        >
+          GNU GENERAL PUBLIC LICENSE Version 3
+        </a>
+      </footer>
     </main>
+
+
   )
 }
