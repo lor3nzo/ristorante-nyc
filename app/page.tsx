@@ -15,7 +15,7 @@ const NEIGHBORHOODS = [
 const PRICES = ['All', '$', '$$', '$$$', '$$$$']
 
 export default function Home() {
-  const [restaurants, setRestaurants] = useState([])
+  const [restaurants, setRestaurants] = useState<any[]>([])
   const [neighborhood, setNeighborhood] = useState('All')
   const [price, setPrice] = useState('All')
   const [search, setSearch] = useState('')
