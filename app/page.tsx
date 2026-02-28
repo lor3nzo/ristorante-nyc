@@ -39,7 +39,7 @@ export default function Home() {
       query = query.eq('price_level', PRICES.indexOf(price))
     }
 
-    const { data } = await query.limit(100)
+    const { data } = await query.limit(500)
     setRestaurants(data || [])
     setLoading(false)
   }
