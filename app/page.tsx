@@ -48,7 +48,7 @@ export default function Home() {
     r.name.toLowerCase().includes(search.toLowerCase())
   )
 
-  const priceLabel = (level) => '$'.repeat(level || 1)
+const priceLabel = (level: number) => '$'.repeat(level || 1)
 
   return (
     <main className="min-h-screen bg-stone-50">
